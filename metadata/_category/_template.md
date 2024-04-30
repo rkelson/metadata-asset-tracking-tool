@@ -1,5 +1,9 @@
 <!-- The filename should match the OpenSGID layer_name. For example, roads.md. The category will be inferred from the directory structure -->
 
+# ID
+
+<!-- The GUID from the SGID Index sheet in the stewardship doc that acts as the primary id key for the layer to track metadata across all systems -->
+
 # Title
 
 <!-- The human-readable layer name that should match the pageTitle item in the data page's metadata. If it's a statewide layer, it should include "Utah", e.g. "Utah Roads" -->
