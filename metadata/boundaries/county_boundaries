@@ -1,0 +1,70 @@
+# Title
+
+Utah County Boundaries
+
+## ID
+
+b2c8af56-3d92-4aa7-ac2f-b1388051d9ce
+
+## Brief Summary
+
+A statewide dataset of Utah's twenty nine county boundaries for cartography and approximate boundary identification.
+
+## Summary
+
+## Description
+
+### What is the dataset
+
+This dataset reflects the most current version of Utah county boundaries. The native spatial reference for this dataset is UTM Zone 12N, NAD83 (0.01 meter coordinate precision).
+
+### What is the purpose of the dataset
+
+### What does the dataset represent
+
+This dataset is developed wusing coordinate geometry (COGO) from legal descriptions. When necessary, this dataset is adjusted to conform to known physical features such as rivers or mountain ranges. This dataset does not represent exact legal boundaries, but, rather a set of boundaries used for administrative purposes that conforms to logical & administrative rules (e.g. no two cities or township areas may cover the same geographic extent).
+
+### How was the dataset created
+
+### How reliable and accurate is the dataset
+
+## Credits
+
+### Data Source
+
+UGRC
+
+### Host
+
+UGRC
+
+## Restrictions
+
+There are no constraints or warranties with regard to the use of this dataset. Users are encouraged to attribute content to: State of Utah, SGID.
+
+## License
+
+CC by 4.0 License
+
+## Tags
+
+## Secondary Category
+
+## Data Page Link
+
+[https://gis.utah.gov/products/sgid/boundaries/county/]
+
+## Update
+
+### Update Schedule
+
+These boundaries are maintained by UGRC with the help of many state, county, and local entities. The boundaries are revised as documents are filed with the Lt. Governor's Office.
+
+### Previous Updates
+
+April 2023
+November 2020 - Davis and Weber Counties Adjust Shared Boundary
+July 2014 - Adjusted to newest CadNSDI v2 PLSS-GCDB; minor adjustments 10 ft to 40 ft all in non-populated areas.
+July 2012 - Juab and Millard Counties Adjust Shared Boundary
+November 2011
+March 2011
