@@ -8,31 +8,40 @@ b2c8af56-3d92-4aa7-ac2f-b1388051d9ce
 
 ## Brief Summary
 
-A statewide dataset of Utah's twenty nine county boundaries for cartography and approximate boundary identification.
+A statewide polygon dataset of county boundaries for cartography and approximate boundary identification.
 
 ## Summary
+
+This dataset contains polygons for all twenty-nine counties in Utah, where the perimeter of the polygon represents the county boundary. Each polygon also contains county population as of the [2020 Census](https://www.census.gov/library/stories/state-by-state/utah-population-change-between-census-decade.html) and current approximate population.
 
 ## Description
 
 ### What is the dataset
 
-This dataset reflects the most current version of Utah county boundaries. The native spatial reference for this dataset is UTM Zone 12N, NAD83 (0.01 meter coordinate precision).
+This dataset represents each county as a polygon with information such as the Entity Number and FIPS code. A full explanation of the field definitions for this dataset is available on the [schema summary](https://docs.google.com/document/d/1e98nKP6PW9tuTy3nZYS4qhMp9fC8E6uv73SVbBOYvsk/edit?usp=sharing) document. The native spatial reference for this dataset is UTM Zone 12N, NAD83 (0.01 meter coordinate precision).
 
 ### What is the purpose of the dataset
 
+This dataset provides an administrative baseline for the current extent of each county in Utah. Boundary data is often used in analysis, especially within the transportation, real estate, and natural resources sectors.
+
 ### What does the dataset represent
 
-This dataset is developed wusing coordinate geometry (COGO) from legal descriptions. When necessary, this dataset is adjusted to conform to known physical features such as rivers or mountain ranges. This dataset does not represent exact legal boundaries, but, rather a set of boundaries used for administrative purposes that conforms to logical & administrative rules (e.g. no two cities or township areas may cover the same geographic extent).
+This dataset does not represent exact legal boundaries, but, rather a set of boundaries used for general purposes that conforms to logical and administrative rules (e.g. no two cities or township areas may cover the same geographic extent).
 
 ### How was the dataset created
 
+This dataset was developed using coordinate geometry (COGO) from legal descriptions provided by each county. When necessary, this dataset is adjusted to conform to known physical features such as rivers or mountain ranges.
+
 ### How reliable and accurate is the dataset
+
+This dataset reflects the most current and complete version of Utah county boundaries. Modifications proposed by counties are first certified by the Lieutenant Governor's Office, then applied to this dataset by UGRC.
 
 ## Credits
 
 ### Data Source
 
-UGRC
+- UGRC
+- Counties
 
 ### Host
 
@@ -48,6 +57,9 @@ CC by 4.0 License
 
 ## Tags
 
+- Lieutenant Governor
+- County Population
+
 ## Secondary Category
 
 ## Data Page Link
@@ -58,7 +70,7 @@ CC by 4.0 License
 
 ### Update Schedule
 
-These boundaries are maintained by UGRC with the help of many state, county, and local entities. The boundaries are revised as documents are filed with the Lt. Governor's Office.
+These boundaries are maintained by UGRC with the help of many state, county, and local entities. The boundaries are revised as documents are filed with the [Lieutenant Governor's Office](https://ltgovernor.utah.gov/).
 
 ### Previous Updates
 
