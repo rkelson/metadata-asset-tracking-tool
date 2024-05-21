@@ -1,0 +1,80 @@
+# Title
+
+Utah Municipal Boundaries
+
+## ID
+
+6b60c759-74d6-4533-93f5-fed8cf32a748
+
+## Brief Summary
+
+Municipalities is a multi-purpose statewide dataset of municipal boundaries for cartography and approximate boundary identification.
+
+## Summary
+
+Utah municipal boundaries defined by County Recorders offices and certified by the Lt. Governor's Office.
+
+## Description
+
+Please reach out to [our team](https://gis.utah.gov/contact/) with questions concerning this dataset.
+
+### What is the dataset?
+
+All features are adjusted to the current Geographic Coordinate Database (GCDB) points. Data developed with coordinate geometry (COGO) from legal descriptions were used. When necessary the data was adjusted to conform to known physical features. This dataset does not represent exact legal boundaries, but, rather a set of boundaries used for the administrative purposes that conforms to logical and administrative rules (e.g. no two cities or redevelopment areas may cover the same geographic extent).
+
+### What is the purpose of the dataset?
+
+### What does the dataset represent?
+
+When necessary the data were adjusted to conform to known physical features. Due to adjustments to resolve conflicting or ambiguous data, the result was more a physical cadastre than a legal one. In other words, this dataset does not represent exact legal boundaries as per surveyed description, but, rather a set of boundaries used for the administrative purposes that conforms to logical and administrative rules (e.g. no two cities or redevelopment areas may cover the same geographic extent).
+
+### How was the dataset created?
+
+These data were first created through a cooperative effort of the Governor's Office of Planning and Budget, the Utah Department of Transportation, the Utah State Tax Commission, and UGRC.  All incorporated municipalities in the state through dates varying from 1984 to 1992 were initially represented. Updates for further annexations and disconnections were completed with the cooperative efforts of the State Tax Commission, Property Tax Division, and UGRC, and currentness now ranges from 1993 through the revisions date shown in the metadata with updates from local government where needed to include new incorporations, corrections, and substantially changed boundaries due to annexation.  
+Data developed with coordinate geometry (COGO) from legal descriptions were used.
+
+### How reliable and accurate is the dataset?
+
+## Credits
+
+### Data Source
+
+- Cities
+- Counties
+- UGRC
+
+### Host
+
+UGRC
+
+## Restrictions
+
+For more information on usage limitations for this dataset, please see our [disclaimer](https://gis.utah.gov/documentation/policy/license/#disclaimer).
+
+## License
+
+CC by 4.0 License
+
+## Tags
+
+- Cities
+- Towns
+- Counties
+
+## Secondary Category
+
+## Data Page Link
+
+[https://gis.utah.gov/products/sgid/boundaries/municipal/]
+
+## Update
+
+### Update Schedule
+
+This dataset is updated on a quarterly basis.
+
+Boundaries.Municipalities boundaries are maintained by AGRC with the help of many state, county, and local entities. Changes and updates are through certification by the Lt. Governor’s Office sent in by City and County Recorders offices. Boundary updates are occasionally accepted from local GIS departments when older (pre 2007) relevant boundary change information was not received through required channels.
+
+Two new cities in Tooele County have been added, Erda and Lake Point. Data is current thru June 30, 2023, data is updated through out the year as changes are made (Annexations). Population Estimates are from July 1, 2022.
+
+### Previous Updates
