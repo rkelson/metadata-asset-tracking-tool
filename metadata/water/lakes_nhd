@@ -12,7 +12,7 @@ Lakes derived from the National Hydrologic Dataset (NHD).
 
 ## Summary
 
-These data represent lake/pond features as well as other water bodies like reservoirs, marshes, and playas. This dataset is derived from the [National Hydrography Database](https://www.usgs.gov/national-hydrography/national-hydrography-dataset) (NHD) compiled by the [USGS](https://www.usgs.gov/) in partnership with UGRC and other states' GIS programs.
+This dataset represents water bodies such as lakes, reservoirs, marshes, and playas as polygons. This dataset is derived from the [National Hydrography Database](https://www.usgs.gov/national-hydrography/national-hydrography-dataset) (NHD) compiled by the [USGS](https://www.usgs.gov/) in partnership with UGRC and other states' GIS programs.
 
 ## Description
 
