@@ -22,11 +22,19 @@
 
 ### What is the dataset
 
+<!-- More detailed summary -->
+
 ### What is the purpose of the dataset
+
+<!-- Application and general uses, why the dataset exists -->
 
 ### What does the dataset represent
 
-### How was the dataset created
+<!-- What does the model represent in real life? -->
+
+### How was the dataset created and how it is maintained
+
+<!-- History, how the dataset is updated, what parties it needs to go through, etc. How we aggregate it, where we get the data from. -->
 
 ### How reliable and accurate is the dataset
 
@@ -64,7 +72,7 @@
 
 ### Update Schedule
 
-<!-- A general description of when the dataset is updated- weekly, quarterly, as needed, etc -->
+<!-- When the dataset is updated- weekly, quarterly, as needed, etc -->
 
 ### Previous Updates
 
