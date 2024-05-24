@@ -27,7 +27,7 @@ This dataset represents the 250+ municipalities in Utah as polygons that include
 
 ### What is the purpose of the dataset?
 
-Municipal boundary data are used in a variety of sectors, including city planning, real estate, and public services. In addition to displaying where current municipalities lie, you can find a map of recent annexations on our [blog](https://www.arcgis.com/home/webmap/viewer.html?webmap=c5ab7e0fcd514f1a9db6b8dad55bba63). Municipal data can help the public see where [annexations](https://gis.utah.gov/blog/2023-01-30-municipal-boundaries-final-update-for-2022/) have occurred and where [new cities and towns](https://gis.utah.gov/blog/2018-09-04-newest-city-added-to-state-and-municipal-boundary-updates-for-third-quarter-2018/) have been established in Utah.
+Municipal boundary data are used in a variety of sectors, including city planning, real estate, and public services. In addition to displaying the extent of current municipalities, you can find a map of recent annexations on our [blog](https://www.arcgis.com/home/webmap/viewer.html?webmap=c5ab7e0fcd514f1a9db6b8dad55bba63). Municipal data can help the public see where [annexations](https://gis.utah.gov/blog/2023-01-30-municipal-boundaries-final-update-for-2022/) have occurred in the past and where [new cities and towns](https://gis.utah.gov/blog/2018-09-04-newest-city-added-to-state-and-municipal-boundary-updates-for-third-quarter-2018/) have been established in Utah.
 
 ### What does the dataset represent?
 
@@ -41,7 +41,7 @@ The original dataset incorporated municipalities in the state that were extant a
 
 ### How reliable and accurate is the dataset?
 
-This dataset is the latest and most complete geospatial resource for municipal boundaries in the state of Utah. Please reach out to [our team](https://gis.utah.gov/contact/) with any questions or concerns about this dataset.
+This dataset is the latest and most complete geospatial resource for municipal boundaries in the state of Utah. Please reach out to [our team](https://gis.utah.gov/contact/) with any questions or concerns about this dataset. For county-specific questions, please contact that county recorder's office.
 
 ## Credits
 
