@@ -12,33 +12,36 @@ Statewide polygon dataset of municipal boundaries for cartography and approximat
 
 ## Summary
 
-Utah municipal boundaries defined by County Recorders offices and certified by the Lt. Governor's Office.
+Utah municipal boundaries defined by County Recorders offices and certified by the Lt. Governor's Office. Updated boundaries from county authorities are aggregated by UGRC to produce this dataset.
 
 ## Description
 
-Please reach out to [our team](https://gis.utah.gov/contact/) with questions concerning this dataset.
-
 ### What is the dataset?
 
-This dataset does not represent exact legal boundaries, but, rather a set of boundaries used for the administrative purposes that conforms to logical and administrative rules (e.g. no two cities or redevelopment areas may cover the same geographic extent).
+This dataset represents the 250+ municipalities in Utah as polygons that include information such as:
+
+- Whether or not the municipality is a county seat
+- Municipality population as of the 2020 Census
+- Estimated population of the municipality as of January 1, 2022
+- [GNIS](https://www.usgs.gov/faqs/what-geographic-names-information-system-gnis#:~:text=The%20Geographic%20Names%20Information%20System%20(GNIS)%2C%20developed%20by%20the,and%20outlying%20areas%20of%20the) code
 
 ### What is the purpose of the dataset?
 
+Municipal boundaries can be used in a variety of sectors, including city planning, real estate, and public services.
+
 ### What does the dataset represent?
 
-Population Estimates are from July 1, 2022.
+This dataset does not represent exact legal boundaries, but, rather a set of boundaries used for general purposes that conforms to logical and administrative rules (e.g. no two cities or redevelopment areas may cover the same geographic extent).
 
 ### How was the dataset created?
 
 This dataset was first created through a cooperative effort between the [Governor's Office of Planning and Budget](https://gopb.utah.gov/), [UDOT](https://udot.utah.gov/), the [Utah State Tax Commission](https://incometax.utah.gov/), and UGRC. Coordinate geometry (COGO) from legal descriptions was used to create a polygon feature for each municipality in Utah. All features have been adjusted to the current Geographic Coordinate Database (GCDB) points.
 
-The original dataset incorporated municipalities in the state that were extant as of 1992. Since then, 
-
- All incorporated municipalities in the state through dates varying from 1984 to 1992 were initially represented.
-
- Updates for further annexations and disconnections were completed with the cooperative efforts of the State Tax Commission, [Property Tax Division](https://propertytax.utah.gov/), and UGRC, and currentness now ranges from 1993 through the revisions date shown in the metadata with updates from local government where needed to include new incorporations, corrections, and substantially changed boundaries due to annexation.  
+The original dataset incorporated municipalities in the state that were extant as of 1992. Updates for further annexations and disconnections have been completed with the cooperative efforts of the State Tax Commission, [Property Tax Division](https://propertytax.utah.gov/), and UGRC.
 
 ### How reliable and accurate is the dataset?
+
+This dataset is the latest and most complete geospatial resource for municipal boundaries in the state of Utah. Please reach out to [our team](https://gis.utah.gov/contact/) with any questions or concerns about this dataset.
 
 ## Credits
 
@@ -54,17 +57,14 @@ UGRC
 
 ## Restrictions
 
-For more information on usage limitations for this dataset, please see our [disclaimer](https://gis.utah.gov/documentation/policy/license/#disclaimer).
-
 ## License
-
-CC by 4.0 License
 
 ## Tags
 
 - Cities
 - Towns
 - Counties
+- Population
 
 ## Secondary Category
 
