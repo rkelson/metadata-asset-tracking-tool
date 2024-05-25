@@ -8,45 +8,49 @@ b0a55056-bdb9-4b7c-8812-8f246b328f88
 
 ## Brief Summary
 
-Lakes derived from the National Hydrologic Dataset (NHD).
+Statewide bodies of water such as lakes, reservoirs, and rivers derived from the National Hydrologic Dataset (NHD).
 
 ## Summary
 
-This dataset represents bodies of water such as lakes, reservoirs, marshes, and playas. This dataset is derived from the [National Hydrography Database](https://www.usgs.gov/national-hydrography/national-hydrography-dataset) (NHD) compiled by the [USGS](https://www.usgs.gov/) in partnership with UGRC and other states' GIS programs.
+This dataset comprises bodies of water found in and around the state of Utah. This dataset is derived from the [National Hydrography Database](https://www.usgs.gov/national-hydrography/national-hydrography-dataset) (NHD) compiled by the United State Geological Survey [USGS](https://www.usgs.gov/) in partnership with UGRC and other state GIS programs.
 
 ## Description
 
-This dataset has been derived from the National Hydrologic Dataset (NHD). The derivation and modification process has been performed by UGRC to provide a general purpose feature class of water bodies for cartographic purposes. Four fields have been added to this feature class (FType_Text, FCode_Text, InUtah and IsMajor) and features have been split at the state boundary.
-
-UGRC has modified the source NHD data to create additional functionality. Two fields have been added to this feature class (InUtah and IsMajor) and features have been split at the state boundary. The "IsMajor" field identifies major lakes for coarse scale mapping and display, where 1 = major and 0 = minor. The "InUtah" field identifies whether a given body of water is within the state boundary, where 1 = in Utah and 0 = outside of Utah.
-
 ### What is the dataset?
 
-The NHD is a national framework for assigning reach addresses to water-related entities, such as industrial discharges, drinking water supplies, and fish habitat areas. Reach addresses establish the locations of these entities relative to one another within the NHD surface water drainage network, much like addresses on streets.
+The NHD is a national framework for assigning [reach addresses](https://enviro.epa.gov/enviro/ef_metadata_html.tri_page?p_column_name=reach_code#:~:text=Description%3A%20A%20reach%20code%20is,National%20Hydrography%20Dataset%20(NHD).) to water-related entities, such as industrial discharges, drinking water supplies, and fish habitat areas. Reach addresses establish the locations of these entities relative to one another within the NHD surface water drainage network, much like addresses on streets.
 
-Once linked to the NHD by their reach addresses, the upstream/downstream relationships of these water-related entities--and any associated information about them--can be analyzed using software tools ranging from spreadsheets to geographic information systems (GIS).
-
-The NHD contains reach codes for networked features, flow direction, names, and centerline representations for areal water bodies. Reaches are also defined on water bodies and the approximate shorelines of the Great Lakes, the Atlantic and Pacific Oceans and the Gulf of Mexico. The NHD also incorporates the National Spatial Data Infrastructure framework criteria established by the Federal Geographic Data Committee.
+The NHD contains reach codes for networked features, flow direction, names, and centerline representations for areal water bodies. The NHD also incorporates the National Spatial Data Infrastructure framework criteria established by the Federal Geographic Data Committee.
 
 ### What is the purpose of the dataset?
 
-GIS can also be used to combine NHD-based network analysis with other data layers, such as soils, land use and population, to help understand and display their respective effects upon one another. Furthermore, because the NHD provides a nationally consistent framework for addressing and analysis, water-related information linked to reach addresses by one organization (national, state, local) can be shared with other organizations and easily integrated into many different types of applications to the benefit of all.
+The NHD provides a nationally consistent framework for addressing and analyzing water-related information. Water body data are also a helpful resource for [cartography](https://19january2021snapshot.epa.gov/sites/static/files/2014-09/documents/utah.pdf), public recreation, and data analysis. NHD-based datasets can be combined with other data layers such as soils, land use, and population to help understand and display their respective effects upon one another. Further water-related data can be found on the SGID [Water Data Index](https://gis.utah.gov/products/sgid/water/).
 
 ### What does the dataset represent?
 
+This dataset represents bodies of water as polygons that include attributes such as the area in square kilometers and [GNIS](https://www.usgs.gov/tools/geographic-names-information-system-gnis) name. UGRC has also modified the source NHD data to create additional functionality. Four fields have been added to this feature class (FType_Text, FCode_Text, InUtah and IsMajor) and features have been split at the state boundary.
+
+The "IsMajor" field identifies major lakes for coarse scale mapping and display, where 1 = major and 0 = minor. The "InUtah" field identifies whether a given body of water is within the state boundary, where 1 = in Utah and 0 = outside of Utah. For a full description of the fields in this dataset, please see the [schema summary](https://docs.google.com/document/d/1QWZKKPe3PWR9XyMYEG6qFmhsK55oBYYLWRQtknbrnD4/edit?usp=sharing).
+
 ### How was the dataset created?
 
-The NHD was first created in the late 1990s by the United States Geological Servey [(USGS)](https://www.usgs.gov/) in collaboration with the Environmental Protection Agency [(EPA)](https://www.epa.gov/). The original product, the National Hydrography Dataset, was created at a 1:100,000 scale for the contiguous United States only (excluding Alaska and Hawaii). The EPA became the primary custodian of this medium resolution dataset in the early 2000s, while the USGS and United States Forest Service [(USFS)](https://www.fs.usda.gov/) began the production of what would become the high resolution National Hydrography Database. Today, the high-resolution NHD is available at a nationwide 1:24,000 scale.
+The NHD was first created in the late 1990s by USGS in collaboration with the Environmental Protection Agency [(EPA)](https://www.epa.gov/). The original product, the National Hydrography Dataset, was created at a 1:100,000 scale for the conterminous United States. The EPA became the primary custodian of this medium resolution dataset in the early 2000s, while USGS and United States Forest Service [(USFS)](https://www.fs.usda.gov/) began the production of what would become the high resolution National Hydrography Database. Today, the high-resolution NHD is available at a nationwide 1:24,000 scale.
 
 More information on the history of this database can be found in [publications](https://www.horizon-systems.com/NHDPlusData/NHDPlusV21/Documentation/History/Making_the_Digital_Water_Flow.pdf) from USGS and on the [NHD website](https://www.usgs.gov/national-hydrography/national-hydrography-dataset#:~:text=In%20the%20late%201990s%2C%20the,and%20those%20of%20other%20medium).
 
 ### How reliable and accurate is the dataset?
 
-The NHD is the primary source for water body data in the United States. It represents a nationally consistent, interoperable dataset that facilitates accurate data sharing betweeen entities. Questions or concerns about this dataset can be directed to [USGS](https://www.usgs.gov/national-hydrography/nhdplus-high-resolution). Utah-specific questions can be directed to [our team](https://gis.utah.gov/contact/) at UGRC.
+The NHD is the primary source for water body data in the United States. It represents a nationally consistent, interoperable dataset that facilitates accurate data sharing between entities. Questions or concerns about this dataset can be directed to [USGS](https://www.usgs.gov/national-hydrography/nhdplus-high-resolution). Utah-specific inquiries can be directed to [our team](https://gis.utah.gov/contact/) at UGRC.
 
 ## Credits
 
+- USGS
+- EPA
+- UGRC
+
 ### Data Source
+
+NHD
 
 ### Host
 
@@ -58,6 +62,12 @@ UGRC
 
 ## Tags
 
+- Water
+- National Hydrography Dataset
+- USGS
+- EPA
+- Hydrology
+
 ## Secondary Category
 
 ## Data Page Link
@@ -67,5 +77,9 @@ UGRC
 ## Update
 
 ### Update Schedule
+
+<!--- The SGID Index does not specify how often this layer is updated. Moreover, the USGS website says that the NHD was retired in 2023 and will no longer be maintained. It says that the 3D Hydrography Program will contain the most recent data. Is this something we want to include in our metadata? 
+
+https://www.usgs.gov/national-hydrography/national-hydrography-dataset -->
 
 ### Previous Updates
