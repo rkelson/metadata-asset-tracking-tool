@@ -1,0 +1,87 @@
+# Title
+
+Utah ZIP Code Areas
+
+## ID
+
+1d4cbfba-75da-4d7c-a9bb-b32902b0af6d
+
+## Brief Summary
+
+Geographic extents of 5 digit zip codes.
+
+The estimated geographic extents for all five digit ZIP codes in Utah that are not P.O. box only.
+
+## Summary
+
+Zone improvement program (ZIP) code boundaries are an ongoing effort to approximate the geographic extents of five digit ZIP codes as polygons. The dataset was produced using a combination of methods and is based on several sets of source data. Editing methods include:
+
+- Using local ZIP code polygon data obtained from counties and cities.
+- Identifying place locations (cities, towns, populated areas, etc.) from the postal service website and address information system (AIS) and building ZIP code boundaries around these places.
+- Using the 2000 Census TIGER line file’s ZIP code attributes.
+
+In addition, UGRC has used the locations of mailing addresses known to be valid to fine tune this dataset.
+
+## Description
+
+Please reach out to [our team](https://gis.utah.gov/contact/) with questions concerning this dataset.
+
+### What is the dataset?
+
+This data was developed to assist in assigning a five-digit zip code to each street segment and address point in the Utah statewide data set.
+
+The assigned zip codes are used to:
+
+Determine the location to be used for geocoding addresses
+
+Automate the development of data that needs to be aggregated by zip code
+
+This data should not be used to determine the definitive zip code for addressing mail that will be sent through the US Postal Service.  The USPS web site or other official data should be used for this purpose.
+
+This dataset represents an ongoing effort to approximate the geographic extents of 5 digit zip codes. The dataset was produced using a combination of methods and is based on several sets of source data. Methods include: 1 using local zip code polygon data obtained from counties and cities contained within these counties; 2 examining the 2000 Census TIGER line file's zip code attributes; and 3 using UGRC address grid quadrant boundaries to assign the zip code to segments within a boundary corresponding to a place location (city, town, places) from the postal service website and address information system (AIS). In addition, UGRC has used the locations of mailing addresses known to have valid zip codes to fine tune this dataset.
+
+### What is the purpose of the dataset?
+
+### What does the dataset represent?
+
+### How was the dataset created?
+
+### How reliable and accurate is the dataset?
+
+## Credits
+
+### Data Source
+
+### Host
+
+UGRC
+
+## Restrictions
+
+## License
+
+## Tags
+
+## Secondary Category
+
+Location
+
+## Data Page Link
+
+[https://gis.utah.gov/products/sgid/boundaries/zip-codes/]
+
+## Update
+
+### Update Schedule
+
+Annually
+
+### Previous Updates
+
+April 2022 - Improved boundaries in Davis county
+November 2019 - Added 84765 polygon for Motoqua in Washington County
+January 2019 - Added 84059 ZIP code in Utah County
+February 2016 - Updated 84321, 84235, 85326, 84332, 84339
+July 2015 - Split the 84095 (South Jordan) ZIP code along the Bangerter Hwy to create the new ZIP code 84009 (South Jordan)
+January 2015 - Improvements were made to 84773 (Teasdale) and 84775 (Torrey)
+January 2015 - Adjusted the 84747 (Loa) and 84716 (Boulder) ZIP code boundaries to follow the address grid quadrant boundaries
