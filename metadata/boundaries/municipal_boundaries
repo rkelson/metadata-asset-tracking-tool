@@ -21,7 +21,7 @@ Utah municipal boundaries defined by County Recorders' offices and certified by 
 This dataset represents the 250+ municipalities in Utah as polygons that include information such as:
 
 - Whether or not the municipality is a county seat
-- Municipality population as of the 2020 Census
+- Municipality population as of the most recent Census
 - Estimated population of the municipality as of January 1, 2022
 - [GNIS](https://www.usgs.gov/faqs/what-geographic-names-information-system-gnis#:~:text=The%20Geographic%20Names%20Information%20System%20(GNIS)%2C%20developed%20by%20the,and%20outlying%20areas%20of%20the) code
 
