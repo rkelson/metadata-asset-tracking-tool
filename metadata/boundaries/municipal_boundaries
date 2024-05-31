@@ -21,13 +21,13 @@ Utah municipal boundaries defined by County Recorders' offices and certified by 
 This dataset represents the 250+ municipalities in Utah as polygons that include information such as:
 
 - Whether or not the municipality is a county seat
-- Municipality population as of the most recent Census
-- Estimated population of the municipality as of January 1, 2022
+- Municipality population as of the most recent Census (POPLASTCEN)
+- Estimated population of the municipality as of July 1, 2022 (POPLASTEST)
 - [GNIS](https://www.usgs.gov/faqs/what-geographic-names-information-system-gnis#:~:text=The%20Geographic%20Names%20Information%20System%20(GNIS)%2C%20developed%20by%20the,and%20outlying%20areas%20of%20the) code
 
 ### What is the purpose of the dataset?
 
-Municipal boundary data are used in a variety of sectors, including city planning, real estate, and public services. In addition to displaying the extent of current municipalities, you can find a map of recent annexations on our [blog](https://www.arcgis.com/home/webmap/viewer.html?webmap=c5ab7e0fcd514f1a9db6b8dad55bba63). Municipal data can help the public see where [annexations](https://gis.utah.gov/blog/2023-01-30-municipal-boundaries-final-update-for-2022/) have occurred in the past and where [new cities and towns](https://gis.utah.gov/blog/2018-09-04-newest-city-added-to-state-and-municipal-boundary-updates-for-third-quarter-2018/) have been established in Utah.
+Municipal boundary data are used in a variety of sectors, including city planning, real estate, and public services. In addition to displaying the extent of current municipalities, you can find a map of recent annexations and disconnections on our [blog](https://www.arcgis.com/home/webmap/viewer.html?webmap=c5ab7e0fcd514f1a9db6b8dad55bba63). Municipal data can help the public see where [annexations](https://gis.utah.gov/blog/2023-01-30-municipal-boundaries-final-update-for-2022/) have occurred in the past and where [new cities and towns](https://gis.utah.gov/blog/2018-09-04-newest-city-added-to-state-and-municipal-boundary-updates-for-third-quarter-2018/) have been established in Utah.
 
 ### What does the dataset represent?
 
