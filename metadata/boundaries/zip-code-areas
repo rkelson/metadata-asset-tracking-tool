@@ -8,7 +8,7 @@ Utah ZIP Code Areas
 
 ## Brief Summary
 
-The estimated geographic extents for all five-digit ZIP codes in Utah that are not P.O. box only.
+The estimated geographic extents for all ZIP codes in Utah, excluding those that are PO Box only.
 
 ## Summary
 
@@ -20,11 +20,11 @@ This dataset includes the approximate geographic boundaries of every five-digit 
 
 ZIP codes were first introduced by the United State Postal Service (USPS) in 1963 to improve mail delivery. The first three digits of the five-digit code refer to the Sectional Center Facility (SCF), or the central processing facility for a given region's mail. The last two digits provide a more specific locale that the mail will be delivered to.
 
-This dataset should not be used to determine the definitive zip code for addressing mail that will be sent through the US Postal Service.  The [USPS website](https://tools.usps.com/zip-code-lookup.htm) or other official data should be used for this purpose.
-
 ### What is the purpose of the dataset?
 
-This dataset was developed to provide a reference for assigning ZIP codes to features in the [Utah Roads](https://gis.utah.gov/products/sgid/transportation/road-centerlines/) and [Utah Address Points](https://gis.utah.gov/products/sgid/location/address-points/) datasets. The assigned zip codes are used to determine the location to be used for geocoding addresses as well asutomate the development of data that needs to be aggregated by ZIP code.
+This dataset was developed to provide a reference for assigning ZIP codes to geocoded features in the [Utah Roads](https://gis.utah.gov/products/sgid/transportation/road-centerlines/) and [Utah Address Points](https://gis.utah.gov/products/sgid/location/address-points/) datasets. Utah ZIP Code Areas have also been used in a variety of analyses; for example, one such analysis maps housing affordability in Utah by ZIP code. You can read about how ZIP codes were used to quantify housing data on our [blog](https://gis.utah.gov/blog/2024-05-17-utah-housing-affordability-map/).
+
+This dataset should not be used to determine the definitive zip code for addressing mail that will be sent through the US Postal Service.  The [USPS website](https://tools.usps.com/zip-code-lookup.htm) or other official data should be used for this purpose.
 
 ### What does the dataset represent?
 
@@ -32,11 +32,13 @@ Each polygon in this dataset represents the approximate geographic area of a giv
 
 ### How was the dataset created?
 
-The dataset was produced using a combination of methods and is based on several sets of source data. Editing methods include:
+UGRC produced this dataset from multiple data sources using a combination of methods. Editing methods included:
 
 - Using local ZIP code polygon data obtained from counties and cities.
 - Identifying place locations (cities, towns, populated areas, etc.) from the postal service website and address information system (AIS) and building ZIP code boundaries around these places.
 - Using the 2000 Census TIGER line file’s ZIP code attributes.
+
+<!--- I've got a list of updates for this dataset, but have been unsuccessful in finding how this dataset is updated or what needs to happen in order to justify an update. Will be gathering more information on this. -->
 
 ### How reliable and accurate is the dataset?
 
@@ -59,6 +61,7 @@ UGRC
 ## Tags
 
 - USPS
+- Zip5
 - Mail Delivery
 - Postal
 - United States Postal Service
@@ -78,11 +81,3 @@ Location
 Annually
 
 ### Previous Updates
-
-April 2022 - Improved boundaries in Davis county
-November 2019 - Added 84765 polygon for Motoqua in Washington County
-January 2019 - Added 84059 ZIP code in Utah County
-February 2016 - Updated 84321, 84235, 85326, 84332, 84339
-July 2015 - Split the 84095 (South Jordan) ZIP code along the Bangerter Hwy to create the new ZIP code 84009 (South Jordan)
-January 2015 - Improvements were made to 84773 (Teasdale) and 84775 (Torrey)
-January 2015 - Adjusted the 84747 (Loa) and 84716 (Boulder) ZIP code boundaries to follow the address grid quadrant boundaries
