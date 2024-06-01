@@ -35,7 +35,7 @@ This dataset does not represent exact legal boundaries, but, rather a set of pol
 
 ### How was the dataset created?
 
-This dataset was first created through a cooperative effort between the [Governor's Office of Planning and Budget](https://gopb.utah.gov/), [UDOT](https://udot.utah.gov/), the [Utah State Tax Commission](https://incometax.utah.gov/), and UGRC. Coordinate geometry (COGO) from legal descriptions was used to create a polygon feature for each municipality in Utah. All features have been adjusted to the current Geographic Coordinate Database (GCDB) points.
+This dataset was first created through a cooperative effort between the [Governor's Office of Planning and Budget](https://gopb.utah.gov/), [UDOT](https://udot.utah.gov/), the [Utah State Tax Commission](https://incometax.utah.gov/), and UGRC. Polygon features for each municipality were created using coordinate geometry [(COGO)](https://pro.arcgis.com/en/pro-app/latest/help/editing/introduction-to-cogo.htm) from legal descriptions. All features have been adjusted to the current Geographic Coordinate Database (GCDB) points.
 
 The original dataset incorporated municipalities in the state that were extant as of 1992. Updates for further annexations and disconnections have been completed with the cooperative efforts of the State Tax Commission, [Property Tax Division](https://propertytax.utah.gov/), and UGRC. Updates to the municipal boundaries proposed by counties or other entities must be certified through the [Lieutenant Governor's Office](https://ltgovernor.utah.gov/).
 
