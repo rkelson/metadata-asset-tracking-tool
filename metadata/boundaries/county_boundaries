@@ -34,14 +34,14 @@ This dataset was developed using coordinate geometry (COGO) from legal descripti
 
 ### How reliable and accurate is the dataset
 
-This dataset reflects the most current and complete version of Utah county boundaries. Modifications proposed by counties are first certified by the Lieutenant Governor's Office, then applied to this dataset by UGRC.
+This dataset reflects the most current and complete version of Utah county boundaries. Modifications proposed by counties are first certified through the Lieutenant Governor's Office, then applied to this dataset by UGRC.
 
 ## Credits
 
 ### Data Source
 
 - UGRC
-- Counties
+- County Authorities
 
 ### Host
 
@@ -55,6 +55,7 @@ UGRC
 
 - Lieutenant Governor
 - County Population
+- Census
 
 ## Secondary Category
 
