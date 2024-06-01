@@ -24,7 +24,7 @@ ZIP codes were first introduced by the United State Postal Service (USPS) in 196
 
 This dataset was developed to provide a reference for assigning ZIP codes to geocoded features in the [Utah Roads](https://gis.utah.gov/products/sgid/transportation/road-centerlines/) and [Utah Address Points](https://gis.utah.gov/products/sgid/location/address-points/) datasets. Utah ZIP Code Areas have also been used in a variety of analyses; for example, one such analysis maps housing affordability in Utah by ZIP code. You can read about how ZIP codes were used to quantify housing data on our [blog](https://gis.utah.gov/blog/2024-05-17-utah-housing-affordability-map/).
 
-This dataset should not be used to determine the definitive zip code for addressing mail that will be sent through the US Postal Service.  The [USPS website](https://tools.usps.com/zip-code-lookup.htm) or other official data should be used for this purpose.
+This dataset should not be used to determine the definitive zip code for addressing mail that will be sent through the US Postal Service.  The [USPS website](https://tools.usps.com/zip-code-lookup.htm) should be used for this purpose.
 
 ### What does the dataset represent?
 
