@@ -12,7 +12,7 @@ A statewide polygon dataset of county boundaries for cartography and approximate
 
 ## Summary
 
-This dataset contains polygons for all twenty-nine counties in Utah, where the perimeter of the polygon represents the county boundary. Each polygon also contains county population as of the [2020 Census](https://www.census.gov/library/stories/state-by-state/utah-population-change-between-census-decade.html) and current approximate population.
+This dataset contains polygons for all 29 counties in Utah, where the perimeter of the polygon represents the county boundary. Each polygon also contains county population as of the [2020 Census](https://www.census.gov/library/stories/state-by-state/utah-population-change-between-census-decade.html) and current approximate population.
 
 ## Description
 
@@ -30,7 +30,9 @@ This dataset does not represent exact legal boundaries, but, rather a set of bou
 
 ### How was the dataset created
 
-This dataset was developed using coordinate geometry (COGO) from legal descriptions provided by each county. When necessary, this dataset is adjusted to conform to known physical features such as rivers or mountain ranges. The boundaries are revised as updates are filed with the [Lieutenant Governor's Office](https://ltgovernor.utah.gov/). Once approved, UGRC receives updated data and adjusts the polygon boundaries accordingly.
+UGRC developed this dataset using coordinate geometry [(COGO)](https://pro.arcgis.com/en/pro-app/latest/help/editing/introduction-to-cogo.htm) from legal descriptions provided by each county. When necessary, this dataset was adjusted to conform to known physical features such as rivers or mountain ranges.
+
+All updates to this dataset must first be filed with the [Lieutenant Governor's](https://ltgovernor.utah.gov/) office. Once approved, UGRC receives updated data and adjusts the polygon boundaries accordingly.
 
 ### How reliable and accurate is the dataset
 
