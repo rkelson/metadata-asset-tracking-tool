@@ -20,9 +20,7 @@ This dataset includes the approximate geographic boundaries of every five-digit 
 
 ZIP codes were first introduced by the United State Postal Service (USPS) in 1963 to improve mail delivery. The first three digits of the five-digit code refer to the Sectional Center Facility (SCF), or the central processing facility for a given region's mail. The last two digits provide a more specific locale that the mail will be delivered to.
 
-This data should not be used to determine the definitive zip code for addressing mail that will be sent through the US Postal Service.  The [USPS website](https://tools.usps.com/zip-code-lookup.htm) or other official data should be used for this purpose.
-
-Please reach out to [our team](https://gis.utah.gov/contact/) with questions concerning this dataset.
+This dataset should not be used to determine the definitive zip code for addressing mail that will be sent through the US Postal Service.  The [USPS website](https://tools.usps.com/zip-code-lookup.htm) or other official data should be used for this purpose.
 
 ### What is the purpose of the dataset?
 
@@ -42,7 +40,7 @@ The dataset was produced using a combination of methods and is based on several 
 
 ### How reliable and accurate is the dataset?
 
-This dataset represents approximate boundaries only.
+This dataset represents approximate boundaries only. Please reach out to [our team](https://gis.utah.gov/contact/) with questions concerning this dataset.
 
 ## Credits
 
