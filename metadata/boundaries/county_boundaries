@@ -30,7 +30,7 @@ This dataset does not represent exact legal boundaries, but, rather a set of bou
 
 ### How was the dataset created
 
-This dataset was developed using coordinate geometry (COGO) from legal descriptions provided by each county. When necessary, this dataset is adjusted to conform to known physical features such as rivers or mountain ranges. These boundaries are maintained by UGRC with the help of many state, county, and local entities. The boundaries are revised as documents are filed with the [Lieutenant Governor's Office](https://ltgovernor.utah.gov/).
+This dataset was developed using coordinate geometry (COGO) from legal descriptions provided by each county. When necessary, this dataset is adjusted to conform to known physical features such as rivers or mountain ranges. The boundaries are revised as updates are filed with the [Lieutenant Governor's Office](https://ltgovernor.utah.gov/). Once approved, UGRC receives updated data and adjusts the polygon boundaries accordingly.
 
 ### How reliable and accurate is the dataset
 
@@ -48,8 +48,6 @@ This dataset reflects the most current and complete version of Utah county bound
 UGRC
 
 ## Restrictions
-
-There are no constraints or warranties with regard to the use of this dataset. Users are encouraged to attribute content to: State of Utah, SGID.
 
 ## License
 
@@ -71,10 +69,3 @@ There are no constraints or warranties with regard to the use of this dataset. U
 This dataset is updated as needed.
 
 ### Previous Updates
-
-- April 2023
-- November 2020 - Davis and Weber Counties Adjust Shared Boundary
-- July 2014 - Adjusted to newest CadNSDI v2 PLSS-GCDB; minor adjustments 10 ft to 40 ft all in non-populated areas.
-- July 2012 - Juab and Millard Counties Adjust Shared Boundary
-- November 2011
-- March 2011
