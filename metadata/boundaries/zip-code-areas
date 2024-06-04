@@ -22,13 +22,13 @@ ZIP codes were first introduced by the United State Postal Service (USPS) in 196
 
 ### What is the purpose of the dataset?
 
-This dataset was developed to provide a reference for assigning ZIP codes to geocoded features in the [Utah Roads](https://gis.utah.gov/products/sgid/transportation/road-centerlines/) and [Utah Address Points](https://gis.utah.gov/products/sgid/location/address-points/) datasets. Utah ZIP Code Areas have also been used in a variety of analyses; for example, one such analysis maps housing affordability in Utah by ZIP code. You can read about how ZIP codes were used to quantify housing data on our [blog](https://gis.utah.gov/blog/2024-05-17-utah-housing-affordability-map/).
+This dataset was developed to provide a reference for assigning ZIP codes to features in the SGID such as [Utah Roads](https://gis.utah.gov/products/sgid/transportation/road-centerlines/) and [Utah Address Points](https://gis.utah.gov/products/sgid/location/address-points/) datasets. Utah ZIP Code Areas have also been used in a variety of analyses; for example, one such analysis maps housing affordability in Utah by ZIP code. You can read about how ZIP codes were used to quantify housing data on our [blog](https://gis.utah.gov/blog/2024-05-17-utah-housing-affordability-map/).
 
-This dataset should not be used to determine the definitive zip code for addressing mail that will be sent through the US Postal Service.  The [USPS website](https://tools.usps.com/zip-code-lookup.htm) should be used for this purpose.
+This dataset should not be used to determine the definitive ZIP code for addressing mail that will be sent through the US Postal Service. The [USPS website](https://tools.usps.com/zip-code-lookup.htm) should be used for this purpose.
 
 ### What does the dataset represent?
 
-Each polygon in this dataset represents the approximate geographic area of a given ZIP code and includes information such as the city and county the code lies within.
+Each polygon in this dataset represents the approximate geographic area of a given ZIP code and includes information such as the city and county the code lies within. These polygons were derived from a database of road polylines originally used to improve mail delivery for carriers. UGRC has translated that polyline data into polygons for visualization and analysis purposes.
 
 ### How was the dataset created?
 
