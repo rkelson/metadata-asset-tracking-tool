@@ -8,7 +8,7 @@ b0a55056-bdb9-4b7c-8812-8f246b328f88
 
 ## Brief Summary
 
-Statewide bodies of water such as lakes, reservoirs, and rivers derived from the National Hydrologic Dataset (NHD).
+Statewide areal bodies of water such as lakes, reservoirs, and ponds derived from the National Hydrologic Dataset (NHD).
 
 ## Summary
 
@@ -28,7 +28,7 @@ The NHD provides a nationally consistent framework for addressing and analyzing 
 
 ### What does the dataset represent?
 
-This dataset approximates bodies of water as polygons that include attributes such as the area in square kilometers and [GNIS](https://www.usgs.gov/tools/geographic-names-information-system-gnis) name. For a full description of the fields in this dataset, please see the [schema summary](https://docs.google.com/document/d/1QWZKKPe3PWR9XyMYEG6qFmhsK55oBYYLWRQtknbrnD4/edit?usp=sharing).
+This dataset approximates bodies of water as polygons that include attributes such as the area in square kilometers and [GNIS](https://www.usgs.gov/tools/geographic-names-information-system-gnis) name. For a full description of the fields in this dataset, please see the [schema summary](https://docs.google.com/document/d/1QWZKKPe3PWR9XyMYEG6qFmhsK55oBYYLWRQtknbrnD4/edit?usp=sharing) document.
 
 ### How was the dataset created?
 
