@@ -2,61 +2,51 @@
 
 Utah Law Enforcement
 
+<!--- thought: should the title say "Utah Law Enforcement Facilities"? That's what it says in the link, but on the data page it is just "Utah Law Enforcement" which seems vague to me. -->
+
 ## ID
 
 01008931-c755-4df7-aea0-b71aded68f5a
 
 ## Brief Summary
 
-Locations of law enforcement facilities where sworn officers of a law enforcement agency are regularly based or stationed.
+Locations of facilities where officers of a law enforcement agency are regularly based or stationed.
 
 ## Summary
 
-Police and other law enforcement stations
+Utah Law Enforcement contains locations where officers of a law enforcement agency are regularly based or stationed. Law enforcement agencies include, but are not limited to, municipal police, county sheriffs, state police, school police, park police, railroad police, federal law enforcement agencies, departments within non law enforcement federal agencies charged with law enforcement (e.g., US Postal Inspectors), and cross jurisdictional authorities (e.g., Port Authority Police).
 
 ## Description
 
-Please reach out to [our team](https://gis.utah.gov/contact/) with questions concerning this dataset.
-
 ### What is the dataset?
 
-Utah Law Enforcement contains locations where sworn officers of a law enforcement agency are regularly based or stationed. Law enforcement facilities are at least partially publicly funded. This law enforcement dataset includes federal, state, local and special jurisdiction facilities. Examples of law enforcement facilities included are municipal police, county sheriffs, state police, school police, park police, railroad police, and federal police.
-
-Homeland Security Use Cases: Use cases describe how the data may be used and to help define and clarify requirements.
-
-1. An assessment of whether or not the total police capability in a given area is adequate.
-2. A list of resources to draw upon in surrounding areas when local resources have temporarily been overwhelmed by a disaster - route analysis can help to determine those entities who are able to respond the quickest.
-3. A resource for emergency management planning purposes.
-4. A resource for catastrophe response to aid in the retrieval of equipment by outside responders in order to deal with the disaster.
-5. A resource for situational awareness planning and response for federal government events.
-
-Law Enforcement Locations in Utah
-
-Any location where sworn officers of a law enforcement agency are regularly based or stationed. Law enforcement agencies "are publicly funded and employ at least one full-time or part-time sworn officer with general arrest powers". This is the definition used by the US Department of Justice - Bureau of Justice Statistics (DOJ-BJS) for their Law Enforcement Management and Administrative Statistics (LEMAS) survey. Although LEMAS only includes non Federal Agencies, this dataset includes locations for federal, state, local, and special jurisdiction law enforcement agencies.
-
-Law enforcement agencies include, but are not limited to, municipal police, county sheriffs, state police, school police, park police, railroad police, federal law enforcement agencies, departments within non law enforcement federal agencies charged with law enforcement (e.g., US Postal Inspectors), and cross jurisdictional authorities (e.g., Port Authority Police). In general, the requirements and training for becoming a sworn law enforcement officer are set by each state.
-
-Law Enforcement agencies themselves are not chartered or licensed by their state. County, city, and other government authorities within each state are usually empowered by their state law to setup or disband Law Enforcement agencies. Generally, sworn Law Enforcement officers must report which agency they are employed by to the state. Although TGS's intention is to only include locations associated with agencies that meet the above definition, TGS has discovered a few locations that are associated with agencies that are not publicly funded. TGS is deleting these locations as we become aware of them, but some probably still exist in this dataset.
-
-Personal homes, administrative offices and temporary locations are intended to be excluded from this dataset, but a few may be included. Personal homes of constables may exist due to fact that many constables work out of their home. FBI entites are intended to be excluded from this dataset, but a few may be included. Text fields in this dataset have been set to all upper case to facilitate consistent database engine search results.
-
-All diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics. The currentness of this dataset is indicated by the [CONTDATE] attribute. Based upon this attribute, the oldest record dates from 2006/06/27 and the newest record dates from 2013/05/20
-
-Last Update: March 6, 2014
+Law enforcement agencies "are publicly funded and employ at least one full-time or part-time sworn officer with general arrest powers". This is the definition used by the US Department of Justice - Bureau of Justice Statistics (DOJ-BJS) for their Law Enforcement Management and Administrative Statistics [(LEMAS)](https://bjs.ojp.gov/data-collection/law-enforcement-management-and-administrative-statistics-lemas) survey. Although LEMAS only includes non-federal agencies, this dataset includes locations for federal, state, local, and special jurisdiction law enforcement agencies.
 
 ### What is the purpose of the dataset?
 
+This dataset was created to provide a general purpose database of law enforcement facilities and their attributes. Law enforcement facility data can been used to asses whether the total police capability of a a given area is adequate and to help local governments bolster law enforcement in needed areas. These data are also a helpful resource for situational awareness planning, emergency response, and route analysis.
+
 ### What does the dataset represent?
+
+This dataset is comprised of point data indicating the locations of law enforcement facilities throughout the state of Utah. Each point includes the facility name, street address, and date it was added to the dataset (indicated by the CONTDATE field). Points have been placed on or near the main structure of the facility.
+
+<!--- Are the points the same as the address points? -->
 
 ### How was the dataset created?
 
 ### How reliable and accurate is the dataset?
 
+This dataset has previously included home addresses for constables who work out of their private residence, temporary offices, and FBI entities. These facilities are excluded from this dataset in the most recent version, however, some discrepancies may still exist. Please reach out to [our team](https://gis.utah.gov/contact/) with questions concerning this dataset, or if you notice any such discrepancies.
+
 ## Credits
 
 ### Data Source
 
+UGRC
+
 ### Host
+
+UGRC
 
 ## Restrictions
 
@@ -64,12 +54,21 @@ Last Update: March 6, 2014
 
 ## Tags
 
+- Police
+- Police Stations
+- County Sheriff
+- LEMAS
+
 ## Secondary Category
 
 ## Data Page Link
 
+[https://gis.utah.gov/products/sgid/society/law-enforcement-facilities/]
+
 ## Update
 
 ### Update Schedule
+
+This database is updated as needed.
 
 ### Previous Updates
