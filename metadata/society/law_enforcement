@@ -10,11 +10,11 @@ Utah Law Enforcement
 
 ## Brief Summary
 
-Locations of facilities where officers of a law enforcement agency are regularly based or stationed.
+Point locations of facilities where officers of a law enforcement agency are regularly stationed.
 
 ## Summary
 
-Utah Law Enforcement contains locations where officers of a law enforcement agency are regularly based or stationed. Law enforcement agencies include, but are not limited to, municipal police, county sheriffs, state police, school police, park police, railroad police, federal law enforcement agencies, departments within non law enforcement federal agencies charged with law enforcement (e.g., US Postal Inspectors), and cross jurisdictional authorities (e.g., Port Authority Police).
+Utah Law Enforcement contains locations where officers of a law enforcement agency are regularly based or stationed. Law enforcement agencies include, but are not limited to, municipal police, county sheriffs, school police, railroad police, federal law enforcement agencies, departments within non law enforcement federal agencies charged with law enforcement (e.g., US Postal Inspectors), and cross jurisdictional authorities (e.g., Port Authority Police).
 
 ## Description
 
@@ -24,7 +24,7 @@ Law enforcement agencies "are publicly funded and employ at least one full-time 
 
 ### What is the purpose of the dataset?
 
-This dataset was created to provide a general purpose database of law enforcement facilities and their attributes. Law enforcement facility data can been used to asses whether the total police capability of a a given area is adequate and to help local governments bolster law enforcement in needed areas. These data are also a helpful resource for situational awareness planning, emergency response, and route analysis.
+This dataset was created to provide a general purpose database of law enforcement facility locations. Law enforcement facility data can been used to asses whether the total police capability of a a given area is adequate and to help local governments identify areas of greatest concern. These data are also a helpful resource for situational awareness planning, emergency response, and route analysis.
 
 ### What does the dataset represent?
 
