@@ -26,7 +26,7 @@ This dataset provides an administrative baseline for the current extent of each 
 
 ### What does the dataset represent
 
-This dataset does not represent exact legal boundaries, but, rather a set of boundaries used for general purposes that conforms to logical and administrative rules (e.g. no two cities or township areas may cover the same geographic extent).
+This dataset does not represent exact legal boundaries, but, rather a set of boundaries used for general purposes that conforms to logical and administrative rules (e.g. no two counties areas may cover the same geographic extent).
 
 ### How was the dataset created
 
@@ -36,7 +36,7 @@ All updates, corrections, or clarifications to the county boundaries represented
 
 ### How reliable and accurate is the dataset
 
-This dataset reflects the most current and complete version of Utah county boundaries. Modifications proposed by counties are first certified through the Lieutenant Governor's Office, then applied to this dataset by UGRC.
+This dataset reflects the most current and complete version of Utah county boundaries that have been verified by the Lieutenant Governor's Office. Please reach out to [our team](https://gis.utah.gov/contact/) with questions concerning this dataset.
 
 ## Credits
 
