@@ -1,6 +1,6 @@
 # Title
 
-Utah Parcels
+Utah Basic Parcels
 
 ## ID
 
@@ -8,17 +8,19 @@ cbe4da2a-3edb-4a4a-b082-60f9371c8006
 
 ## Brief Summary
 
-Database containing parcel boundary, parcel identifier, parcel address, owner type, and county recorder contact information.
+Dataset containing parcel boundary, parcel identifier, parcel address, owner type, and county recorder contact information.
 
 ## Summary
 
-This database contains two parcel datasets for each of the twenty-nine county in Utah. These datasets contain information such as parcel boundary, parcel identifier, parcel address, and owner type. Individual parcels are represented as polygons and are provided to UGRC by each county.
+These datasets contain information such as parcel boundary, parcel identifier, parcel address, and owner type. Individual parcels are represented as polygons and are provided to UGRC by each county.
 
 ## Description
 
 ### What is the dataset?
 
-The Basic Parcels datasets contain information such as the county name, parcel address, and land owner type. Additional information such as parcel market value and the county recorder contact is available in the LIR Parcel datasets. Each county supplies its own data to UGRC, thus, users should expect some variation in schema and completeness between counties.
+The Basic Parcels datasets contain information such as the county name, parcel address, and land owner type. Each county supplies its own data to UGRC, thus, users should expect some variation in schema and completeness between counties.
+
+Parcel polygons contain attributes unique to each parcel such as a unique parcel number (PARCEL_ID), address for the parcel (PARCEL_ADD, PARCEL_CITY, PARCEL_ZIP), update information (ParcelsCur, ParcelsRec, ParcelsPub, ParcelYear, ParcelNotes), a generalized land ownership designation (OWN_TYPE), and the phone number for the county recorders office (RECORDER).
 
 ### What is the purpose of the dataset?
 
@@ -26,15 +28,11 @@ This dataset represents UGRC's ongoing effort to compile statewide parcels follo
 
 ### What does the dataset represent?
 
-A parcel is a defined area of land that is owned by a public or private entity. Parcels in both the Basic Parcels and the LIR Parcels are represented as polygons. A general guide to the field definitions and values is available in the Utah Parcels [schema summary](https://docs.google.com/document/d/1qCRpGJGcHkKfvsm3M3uUGfTyBOUw8WmYCWRPEDI49xs/edit?usp=sharing).
+A parcel is a defined area of land that is owned by a public or private entity. Parcels are represented as polygons. A general guide to the field definitions and values is available in the Utah Parcels [schema summary](https://docs.google.com/document/d/1qCRpGJGcHkKfvsm3M3uUGfTyBOUw8WmYCWRPEDI49xs/edit?usp=sharing).
 
 ### How was the dataset created?
 
-In the spring of 2016, the Land Information Records work group, an informal committee organized by the Governor’s Office of Management and Budget’s State Planning Coordinator, produced recommendations for expanding the sharing of GIS-based parcel information. Participants in the LIR work group included representatives from county, regional, and state governments, including the Utah Association of Counties, Wasatch Front Regional Council, Mountainland and Bear River AOGs, Utah League of Cities and Towns, UDOT, DNR, UGRC, the Division of Emergency Management, Blue Stakes, economic developers, and academic researchers.
-
-The LIR work group’s recommendations set the stage for voluntary sharing of additional objective/quantitative parcel data, primarily around tax assessment information. The recommendations document established objectives, principles, data content items, expected users, and a general process for data aggregation and publishing.
-
-The LIR group focused on defining a data sharing recommendation around a tax year parcel data product that could be aligned with the finalization of the property tax roll by County Assessors on May 22nd of each year. The LIR recommendations do not impact the periodic sharing of basic parcel data from the County Recorders to AGRC per [63F-1-506 (3.b.vi)](https://le.utah.gov/xcode/historical.html?date=1/19/2021&oc=/xcode/Title63F/Chapter1/C63F-1-S506_1800010118000101.html).
+<!--- When talking about how the dataset was made, the original metadata talks about the "LIR Working Group", which I presume was the primary force behind the LIR parcels, but was that group also responsible for these basic parcels? Is the history of both datasets about the same? -->
 
 ### How reliable and accurate is the dataset?
 
@@ -61,7 +59,6 @@ CC by 4.0 License
 ## Tags
 
 - Land ownership
-- Land Information Records
 - HB113
 
 ## Secondary Category
@@ -76,8 +73,6 @@ Boundaries
 
 ### Update Schedule
 
-UGRC generally updates the basic parcels for Davis, Salt Lake, Utah, Washington, and Weber counties, also known as the Big 5, every month. All other counties are on a rotating schedule ranging from quarterly to annually.
-
-LIR parcels are updated annually with county year end tax roll information when provided.
+UGRC updates the basic parcels for Davis, Salt Lake, Utah, Washington, and Weber counties, also known as the Big 5, every month. All other counties are on a rotating schedule ranging from quarterly to annually.
 
 ### Previous Updates
