@@ -8,11 +8,11 @@ cbe4da2a-3edb-4a4a-b082-60f9371c8006
 
 ## Brief Summary
 
-Dataset containing parcel boundary, parcel identifier, parcel address, owner type, and county recorder contact information.
+Parcel information for all 29 counties in Utah.
 
 ## Summary
 
-These datasets contain information such as parcel boundary, parcel identifier, parcel address, and owner type. Individual parcels are represented as polygons and are provided to UGRC by each county.
+This dataset contains information such as parcel boundary, parcel identifier, parcel address, and owner type. Individual parcels are represented as polygons and are provided to UGRC by each county. Dataset containing parcel boundary, parcel identifier, parcel address, owner type, and county recorder contact information.
 
 ## Description
 
