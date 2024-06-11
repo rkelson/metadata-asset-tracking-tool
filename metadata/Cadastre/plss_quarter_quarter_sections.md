@@ -8,25 +8,19 @@ Utah PLSS Quarter Quarter Sections GCDB
 
 ## Brief Summary
 
-The polygons in PLSS Quarter Quarter Section GCDB represent the smallest division that has been defined for the first division.
+Cartographic representation of the smallest unit of the Public Land Survey System (PLSS), where each polygon represents 40 acres of land.
 
 ## Summary
 
-PLSS Quarter Quarter Sections GCBD is a polygon dataset. Second division (QuarterQuarter) data is commonly an aliquot part of quarter sections but could be a lot or other division. GCDB base attribute data was used to create the second division feature class.
+This dataset represents the GIS Version of the Public Land Survey System. GCDB base attribute data was used to create the second division feature class.
 
 ## Description
 
 ### What is the dataset?
 
-The CADNSDI or the Cadastral Publication Data Standard is the cadastral data component of the NSDI. This is the publication guideline for cadastral data that is intended to provide a common format and structure and content for cadastral information that can be made available across jurisdictional boundaries, providing a consistent and uniform cadastral data to meet business need that includes connections to the source information from the data stewards.
+The second division of the PLSS is quarter, quarter-quarter, sixteenth or government lot division of the PLSS. The second and third divisions are combined into this feature class as an intentional de-normalization of the PLSS hierarchical data. The polygons in this feature class represent the smallest division that has been defined for the first division. In most cases the smallest division for the cadastral reference will be the sixteenth but in some cases sections have only been divided to the quarter. Divisions below the sixteenth may be included in this feature class, but in most implementations these smaller divisions will be parcels.
 
-The publication data is a subset of the more complete production data and is reformatted to meet a national standard so data can be integrated across jurisdictional boundaries and be presented in a consistent and standard form nationally. The second division of the PLSS is quarter, quarter-quarter, sixteenth or government lot division of the PLSS. The second and third divisions are combined into this feature class as an intentional de-normalization of the PLSS hierarchical data. The polygons in this feature class represent the smallest division that has been defined for the first division. In most cases the smallest division for the cadastral reference will be the sixteenth but in some cases sections have only been divided to the quarter. Divisions below the sixteenth may be included in this feature class, but in most implementations these smaller divisions will be parcels.
-
-PLSSQuarterQuarterSections_GCDB is the fourth level of a hierarchical break down of the Public Land Survey System Rectangular surveys. This data is Version 2.3 2020 of the Utah PLSS Fabric. This data set represents the GIS Version of the Public Land Survey System. Updates are expected annually as horizontal control positions from published sources and global positioning system (GPS) observations are added. The primary source for the data is cadastral survey records housed by the BLM supplemented with local records and geographic control coordinates from states, counties as well as other federal agencies such as the USGS and USFS. This data was orginally published on 1/3/2017.
-
-Updated 12/15/2020
-
-Updates were made to Quarter Quarter Sections in Utah County to add quarter-quarter sections to areas that were not broken down less than the Section level. These are labeled as SECDIVTYP = Z and SECDIVTXT = Unsurveyed Unprotracted. They were added using information from points collected by county surveyors, that is in the data and extrapolating information from adjoining sections wherever possible. They are still areas that could not be interpreted well enough and they were left empty, beyond the section level.
+This dataset is the fourth level of a hierarchical break down of the Public Land Survey System Rectangular surveys. This data is Version 2.3 2020 of the [Utah PLSS Fabric](https://gis.utah.gov/products/sgid/cadastre/parcel-fabric/). The primary source for the data is cadastral survey records housed by the BLM supplemented with local records and geographic control coordinates from states, counties as well as other federal agencies such as the USGS and USFS. This data was orginally published on 1/3/2017.
 
 ### What is the purpose of the dataset?
 
@@ -72,4 +66,12 @@ Updates were made to Quarter Quarter Sections in Utah County to add quarter-quar
 
 This dataset is updated as needed.
 
+Updates are expected annually as horizontal control positions from published sources and global positioning system (GPS) observations are added.
+
+Updated 12/15/2020
+
+Updates were made to Quarter Quarter Sections in Utah County to add quarter-quarter sections to areas that were not broken down less than the Section level. These are labeled as SECDIVTYP = Z and SECDIVTXT = Unsurveyed Unprotracted. They were added using information from points collected by county surveyors, that is in the data and extrapolating information from adjoining sections wherever possible. They are still areas that could not be interpreted well enough and they were left empty, beyond the section level.
+
 ### Previous Updates
+
+The Cadastral Publication Data Standard ([CadNSDI](https://hub.arcgis.com/maps/BLM-EGIS::blm-natl-public-plss-cadnsdi/about)) is the cadastral data component of the [NSDI](https://www.fgdc.gov/nsdi/nsdi.html). This is the publication guideline for cadastral data that is intended to provide a common format and structure and content for cadastral information that can be made available across jurisdictional boundaries.
