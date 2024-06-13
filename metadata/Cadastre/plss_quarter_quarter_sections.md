@@ -8,19 +8,21 @@ Utah PLSS Quarter Quarter Sections GCDB
 
 ## Brief Summary
 
-Cartographic representation of the smallest unit of the Public Land Survey System (PLSS), where each polygon represents 40 acres of land.
+Cartographic representation of the smallest unit of the Public Land Survey System (PLSS), where each polygon represents approximately 40 acres of land.
 
 ## Summary
 
-This dataset represents the GIS Version of the Public Land Survey System. GCDB base attribute data was used to create the second division feature class.
+This dataset represents the GIS Version of the Public Land Survey System. Geographic Coordinate Database ([GCDB](https://www.sciencebase.gov/catalog/item/4f4e4a7fe4b07f02db648dce)) base attribute data were used to create the second division feature class.
 
 ## Description
 
 ### What is the dataset?
 
-The second division of the PLSS is quarter, quarter-quarter, sixteenth or government lot division of the PLSS. The second and third divisions are combined into this feature class as an intentional de-normalization of the PLSS hierarchical data. The polygons in this feature class represent the smallest division that has been defined for the first division. In most cases the smallest division for the cadastral reference will be the sixteenth but in some cases sections have only been divided to the quarter. Divisions below the sixteenth may be included in this feature class, but in most implementations these smaller divisions will be parcels.
+Originally established by the Land Ordinance of 1785, the PLSS is a nationwide framework for surveying, dividing, and quantifying land. The PLSS is administered by the Bureau of Land Management (BLM) and is first grouped by longitudinal lines. Those lines are divided into a grid with 640 acres in each square, which is further divided into quarter sections (160 acres per square) and then quarter quarter sections (40 acres per square). This dataset represents this final division as polygons.
 
-This dataset is the fourth level of a hierarchical break down of the Public Land Survey System Rectangular surveys. This data is Version 2.3 2020 of the [Utah PLSS Fabric](https://gis.utah.gov/products/sgid/cadastre/parcel-fabric/). The primary source for the data is cadastral survey records housed by the BLM supplemented with local records and geographic control coordinates from states, counties as well as other federal agencies such as the USGS and USFS. This data was orginally published on 1/3/2017.
+The second (quarter sections) and third (quarter quarter sections) divisions are combined into this feature class as an intentional de-normalization of the PLSS hierarchical data. The polygons in this feature class represent the smallest division that has been defined by the BLM. In most cases, the smallest division for the cadastral reference will be the quarter quarter sections. However, in some circumstances, sections have only been divided to the quarter.
+
+This dataset is the fourth level of a hierarchical break down of the Public Land Survey System Rectangular surveys. This data is derived from Version 2.3 2020 of the [Utah PLSS Fabric](https://gis.utah.gov/products/sgid/cadastre/parcel-fabric/). Other PLSS section break downs can be found in the [Cadastre data index](https://gis.utah.gov/products/sgid/cadastre/).
 
 ### What is the purpose of the dataset?
 
@@ -32,13 +34,17 @@ The attributes assigned to PLSS polygons were taken from the BLM's Legal Land De
 
 ### How was the dataset created?
 
+The primary source for the data is cadastral survey records housed by the BLM supplemented with local records and geographic control coordinates from states, counties as well as other federal agencies such as the USGS and USFS. This data was orginally published on 1/3/2017.
+
 The locations of Public Land Survey System (PLSS) corners, as represented in geographic coordinate pairs, were derived from a variety of source documents, which include U.S. General Land Office and BLM survey plats/notes, as well as survey data obtained from other U.S. Government agencies, private sector survey firms, and local governments.
 
-Lots were dissolved to the section level. Survey_type: B (aliquot parts less than 40 acres) for geopolitical splits were attributed as Survey_type: A. This data is derived from the PLSS Intersected feature class of the Utah PLSS Fabric GISv2.3 2020. This layer is based on Geographic Coordinate Data Base (GCDB) coordinate data.
+Lots were dissolved to the section level. Survey_type: B (aliquot parts less than 40 acres) for geopolitical splits were attributed as Survey_type: A. This data is derived from the PLSS Intersected feature class of the Utah PLSS Fabric GISv2.3 2020. This layer is based on GCDB coordinate data.
 
 ### How reliable and accurate is the dataset?
 
 Cadastral publication data has two primary components, land parcel data and cadastral reference data. It is important to recognize that the publication data are not the same as the operation and maintenance or production data. The production data is structured to optimize maintenance processes, is integrated with internal agency operations and contains much more detail than the publication data.
+
+Divisions beyond the quarter quarter sections may be included in this feature class, but in most implementations these smaller divisions will be parcels.
 
 ## Credits
 
