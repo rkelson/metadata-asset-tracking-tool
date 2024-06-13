@@ -8,27 +8,25 @@ cbe4da2a-3edb-4a4a-b082-60f9371c8006
 
 ## Brief Summary
 
-Parcel information for all 29 counties in Utah.
+Database representing parcel boundaries for all 29 counties in Utah that includes basic information such as parcel address and generalized land ownership.
 
 ## Summary
 
-This dataset contains information such as parcel boundary, parcel identifier, parcel address, and owner type. Individual parcels are represented as polygons and are provided to UGRC by each county. Dataset containing parcel boundary, parcel identifier, parcel address, owner type, and county recorder contact information.
+The Basic Parcels dataset contains information such as the county name, parcel address, land owner type, and phone number for the county recorder. Landowners of privately owned parcels are not specified.
 
 ## Description
 
 ### What is the dataset?
 
-The Basic Parcels datasets contain information such as the county name, parcel address, and land owner type. Each county supplies its own data to UGRC, thus, users should expect some variation in schema and completeness between counties.
-
-Parcel polygons contain attributes unique to each parcel such as a unique parcel number (PARCEL_ID), address for the parcel (PARCEL_ADD, PARCEL_CITY, PARCEL_ZIP), update information (ParcelsCur, ParcelsRec, ParcelsPub, ParcelYear, ParcelNotes), a generalized land ownership designation (OWN_TYPE), and the phone number for the county recorders office (RECORDER).
+A parcel is a defined area of land that is owned by a public or private entity. The Utah Basic Parcels database includes a polygon layer of parcels for each of Utah's 29 counties. Each county provides its own data for UGRC, thus, users should expect some variation in schema and completeness between counties.
 
 ### What is the purpose of the dataset?
 
-This dataset represents UGRC's ongoing effort to compile statewide parcels following the passage of [HB113](https://le.utah.gov/~2005/bills/hbillenr/HB0113.htm) in 2005. Parcel data is used in a variety of contexts, including public safety, economic development, transportation, planning, and the provision of public services.
+This database represents UGRC's ongoing efforts to compile statewide parcels following the passage of [HB113](https://le.utah.gov/~2005/bills/hbillenr/HB0113.htm) in 2005. Parcel data is used in a variety of contexts, including public safety, economic development, transportation, planning, and the provision of public services.
 
 ### What does the dataset represent?
 
-A parcel is a defined area of land that is owned by a public or private entity. Parcels are represented as polygons. A general guide to the field definitions and values is available in the Utah Parcels [schema summary](https://docs.google.com/document/d/1qCRpGJGcHkKfvsm3M3uUGfTyBOUw8WmYCWRPEDI49xs/edit?usp=sharing).
+Parcels in this database are represented as polygons. Parcel polygons contain attributes unique to each parcel such as a unique parcel number (PARCEL_ID), address for the parcel (PARCEL_ADD, PARCEL_CITY, PARCEL_ZIP), update information (ParcelsCur, ParcelsRec, ParcelsPub, ParcelYear, ParcelNotes), a generalized land ownership designation (OWN_TYPE), and the phone number for the county recorders office (RECORDER). Fields and field definitions may vary from county to county.
 
 ### How was the dataset created?
 
@@ -36,13 +34,14 @@ A parcel is a defined area of land that is owned by a public or private entity. 
 
 ### How reliable and accurate is the dataset?
 
-Both the Basic Parcel and the LIR Parcel layers are designed for general purpose uses, and are not substitutes for researching and obtaining the most current, legal land records information on file in County records. The [Cadastre Index](https://gis.utah.gov/products/sgid/cadastre/) proposes a schedule, general guideline, and process for assembling county parcel and assessment data into an annual, statewide tax parcel GIS layer.
+This multi-purpose database is not a substitute for obtaining the most current, legal land records information from county authorities. These datasets do not represent exact legal boundaries of Utah Parcels and should be used for general analysis and visualization purposes only.
 
 ## Credits
 
 ### Data Source
 
-UGRC, county data stewards
+- UGRC
+- Counties
 
 ### Host
 
@@ -50,15 +49,13 @@ UGRC
 
 ## Restrictions
 
-For more information on usage limitations for this dataset, please see our [disclaimer](https://gis.utah.gov/documentation/policy/license/#disclaimer).
-
 ## License
-
-CC by 4.0 License
 
 ## Tags
 
 - Land ownership
+- Private land
+- Public land
 - HB113
 
 ## Secondary Category
