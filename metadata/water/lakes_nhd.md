@@ -8,11 +8,11 @@ b0a55056-bdb9-4b7c-8812-8f246b328f88
 
 ## Brief Summary
 
-Statewide areal bodies of water such as lakes, reservoirs, and ponds derived from the National Hydrologic Dataset (NHD).
+Statewide areal bodies of water such as lakes, reservoirs, and ponds derived from the National Hydrography Dataset (NHD).
 
 ## Summary
 
-This dataset comprises bodies of water found in and around the state of Utah. This dataset is derived from the [National Hydrography Database](https://www.usgs.gov/national-hydrography/national-hydrography-dataset) (NHD) compiled by the United State Geological Survey [USGS](https://www.usgs.gov/) and modified by UGRC to provide additional functionality for Utah-based users.
+This dataset comprises bodies of water found in and around the state of Utah. This dataset is derived from the [National Hydrography Dataset](https://www.usgs.gov/national-hydrography/national-hydrography-dataset) (NHD) compiled by the United State Geological Survey [USGS](https://www.usgs.gov/) and modified by UGRC to provide additional functionality for Utah-based users.
 
 ## Description
 
