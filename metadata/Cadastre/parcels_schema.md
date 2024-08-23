@@ -39,24 +39,29 @@ Phone number for the county recorders office for a given parcel.
 
 ### ParcelsCur
 
-Date the parcel was last updated.
+Date the parcels were last updated.
 
 ### ParcelsRec
 
-Date the parcel was received by UGRC.
+Date the parcels were received by UGRC.
 
 ### ParcelsPub
 
-<!--- No definition for this field. -->
+Date the parcels were published by UGRC.
 
 ### ParcelYear
 
-<!--- No definition for this field. -->
+Year associated with the last parcel update.
 
 ### ParcelNote
 
-<!--- No definition for this field. -->
+Vaules:
 
-### CoParcel_U
+Generalized update notes.
 
-<!--- No definition for this field. -->
+- Supplied by county as latest
+- Dynamic snapshot from county
+
+### CoParcel_URL
+
+County GIS, parcel, or county Recorder website.
